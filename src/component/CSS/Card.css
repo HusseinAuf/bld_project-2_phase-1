@@ -1,0 +1,46 @@
+.courses-list {
+    margin:10px 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: max-content;
+  }
+  .course {
+    max-width: min-content;
+  }
+  .course img {
+    margin: 10px;
+    max-width: 210px;
+  }
+
+  .course p {
+    margin: 0px 20px;
+  }
+  .course .author {
+    margin: 20px;
+    margin-top:5px;
+    margin:5px 20px;
+    font-size: 13px;
+    color: #464545;
+  }
+  .course .rating{
+    margin:0px 20px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .course .rating span{
+    color:rgb(229,152,25);
+    font-size: 20px;
+    font-weight: 700;
+    margin:0px;
+  }
+  .course .rating img{
+    height: 22px;
+    margin:0px;
+    margin-left: 10px;
+  }
+  .course .price{
+    margin:10px 20px;
+    font-weight: 700;
+  }
