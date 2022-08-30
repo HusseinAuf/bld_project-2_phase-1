@@ -24,7 +24,8 @@ const Card = ({data}) =>{
                     </div>
                     <p className="price">{course.price}</p>
                 </div>
-            ))};
+            ))
+        };
         </div>
     );
 };
